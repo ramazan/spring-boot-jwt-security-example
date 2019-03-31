@@ -1,0 +1,6 @@
+jwt:
+  signing-key-secret: ramazan
+  get-token-uri: /authenticate
+  refresh-token-uri: /refresh
+  http-request-header: Authorization
+  token-expiration-in-seconds: 604800
