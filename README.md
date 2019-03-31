@@ -1,17 +1,36 @@
-# Spring Boot JWT Based Security Example Project
+# Spring Boot + JWT + Swagger-UI 2 
 
 <hr>
 
-## Request Without JWT Token
-<img src="https://raw.githubusercontent.com/ramazan/spring-boot-jwt-security-example/master/screenshots/unauthorized.png"/>
+Spring Boot, JWT (Json Web Token) and Swagger UI
 
 
-<hr>
+## How to start ?
 
-## Get token
-<img src="https://raw.githubusercontent.com/ramazan/spring-boot-jwt-security-example/master/screenshots/authenticate.png"/>
+```
+$ mvn spring-boot:run
+```
 
-<hr>
+## Swagger-UI
+* After starting the application Click on [Swagger-home](http://localhost:8080/swagger-ui.html)
 
-## Request With JWT Token
-<img src="https://raw.githubusercontent.com/ramazan/spring-boot-jwt-security-example/master/screenshots/success.png"/>
+![Swagger-Home](/screenshots/swagger.png "Swagger UI Home")
+
+
+## Authenticate and Get Token
+![Swagger-Home](/screenshots/get-token.png "Authenticate And Get Token")
+
+
+## User Data
+
+```
+   username | password
+   ramazan   | dummy
+   rmzn      | dummy
+```
+
+
+
+## Request With Token
+![Swagger-Home](/screenshots/success-response.png "Swagger UI Home")
+
