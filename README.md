@@ -1,4 +1,4 @@
-# Spring Boot + JWT + Swagger-UI 2 
+# Spring Boot + JWT + H2 Database + Swagger-UI 2 
 
 <hr>
 
